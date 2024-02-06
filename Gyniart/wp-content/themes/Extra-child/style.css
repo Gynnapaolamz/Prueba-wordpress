@@ -10,3 +10,43 @@ Updated: 2024-01-26 19:58:57
 
 */
 
+
+
+/* DP Slider Navigation */
+
+.dp-carousel .swiper-button-prev {
+	transform: none;
+    margin-top: -100px;
+    top: 10px !important;
+    margin-left: auto!important;
+    right: 52px;
+	font-size: 20px !important;
+	background-color: #fff;
+    padding: 25px !important;
+}
+.dp-carousel .swiper-button-next {
+	transform: none;
+    top: 10px !important;
+    margin-top:-100px;
+    right: 0px !important;
+    background-color: #fff;
+    padding: 25px !important;
+}
+
+/* Arrow Size and Style */
+.swiper-button-next:after, .swiper-button-prev:after {
+	font-size: 20px;
+    color: #aed4e4;
+}
+
+/* DP Slider Pagination */
+.dp-carousel .swiper-pagination-bullet-active {
+	background-color: #fff;
+}
+.dp-carousel .swiper-pagination-bullet {
+	background-color: #fff;
+    top: 15px;
+}
+
+
+
